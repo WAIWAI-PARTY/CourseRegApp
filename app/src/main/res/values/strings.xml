@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CourseRegApp</string>
+    <string name="welcome">歡迎回來</string>
+    <string name="username">Tai Lin SHI</string>
+    <string name="regtext">開始選課</string>
+    <string name="profiletext">我的資訊</string>
+    <string name="scheduletext">日程</string>
+</resources>
