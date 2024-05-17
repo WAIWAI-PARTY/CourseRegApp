@@ -5,4 +5,5 @@
     <string name="regtext">開始選課</string>
     <string name="profiletext">我的資訊</string>
     <string name="scheduletext">日程</string>
+    <string name="searchtext">搜尋課程</string>
 </resources>
