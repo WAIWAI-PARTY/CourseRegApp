@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<courses>
+    <course>
+        <id>GE1401</id>
+        <name>University English</name>
+        <type>Compulsory</type>
+        <day>Monday</day>
+        <startTime>8</startTime>
+        <endTime>10</endTime>
+        <detail>This course aims to give students the necessary competence in rhetoric and writing in English so that they can use the English language effectively to think, reason, argue and express themselves. Students will develop a sense of their own strengths and weaknesses as English writers and discover how they can make their writing more creative, innovative and persuasive. This course will aid in developing students’ fluency in reading, writing, critical, and teamwork skills by scaffolding them through collaboratively designing an infographic, and the multi-drafting and peer review process of writing an argumentative essay. Fluency will focus on timed writing, and accuracy will be dealt with in form of mini-grammar lessons (based on student errors in writing). The overall goal is for learners to become autonomous writers and self-editors.</detail>
+    </course>
+    <course>
+        <id>GE1501</id>
+        <name>Chinese Civilisation</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course will critically examine historical themes and philosophical concepts from different perspectives. All large class learning activities, tutorials, online discussions and fieldtrip in this course will cover selected topics of Chinese history and philosophy. By recognizing these selected topics, the students will find a close connection with self-identification, the relation between individuals and the state, and between individuals and society. These three central themes will run through the course as main thread in order to foster a better understanding of Chinese civilisation and to strengthen their sense of identity with Chinese culture, the state and the people.
+
+The discussions in all TLAs will touch on the real-life problems used as examples to connect the past with the present. In addition, CAH’s great traditions in the past twelve years to use multimedia (such as film, music, visual arts, Websites etc.) and to do fieldtrips (both in Mainland China and Hong Kong) remain important teaching tools.</detail>
+    </course>
+    <course>
+        <id>CS1103B</id>
+        <name>Media Computing</name>
+        <type>Compulsory</type>
+        <day>Friday</day>
+        <startTime>14</startTime>
+        <endTime>16</endTime>
+        <detail>This course will teach fundamental concepts for programming media objects such as image, graphics and sound.  Students will learn basic programming concepts including variables, loops, conditions, arrays, functions and recursion.  With these concepts, students will explore advanced topics like human-computer interaction, geometric transformation and fractal programming.  Data structures and simple object-oriented techniques may also be introduced.</detail>
+    </course>
+    <course>
+        <id>MA1501</id>
+        <name>Coordinate Geometry</name>
+        <type>Compulsory</type>
+        <day>Tuesday</day>
+        <startTime>10</startTime>
+        <endTime>12</endTime>
+        <detail>This course introduces students to coordinate geometry. The content includes curves in two dimensional space, curves in three dimensional space, surfaces in three dimensional space. The emphasis is on developing the concept of coordinate representation of some basic geometric objects in both two and three dimensional spaces and understanding how to compute some important geometric quantities like distance, normal vector, etc.</detail>
+    </course>
+    <course>
+        <id>MA2185</id>
+        <name>Discrete Mathematics</name>
+        <type>Compulsory</type>
+        <day>Thursday</day>
+        <startTime>13</startTime>
+        <endTime>15</endTime>
+        <detail>This course aims to introduce basic ideas of discrete mathematics such as formal mathematical reasoning techniques, basic counting techniques and their applications, number theory and graph theory for computer science students. The objective is intended for students to understand the basic theory and some applications of discrete mathematics. The course gives students training in the ability to think quantitatively and analyse problems critically. </detail>
+    </course>
+    <!-- mod the time -->
+    <course>
+        <id>SM1702</id>
+        <name>Creative Media Studio I</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This six-credit studio course is aimed at ensuring basic competence with a range of traditional and new media tools for artistic creation. The course begins with workshops to generate experiences of creativity, followed by trainings in visual thinking and spatial logic, drawing, photography, video, sound production and aural awareness, which amount to the arts of seeing and hearing in the age of technological convergence. Students are expected to operate, with proficiency, tools of various media, and then gradually generate their own artistic vocabulary. In the process, students are also encouraged to create works with humanitarian sensibilities and concerns, especially via keen observation of the world around them.</detail>
+    </course>
+
+    <course>
+        <id>SM4712B</id>
+        <name>Graduation Thesis/Project</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This is a research-based, process-oriented and production-based course. It is a self-initiated and self-managed final year graduation project (FYP) of the student’s study in SCM BScCM programme. The students are required to attend the regular workshops and to work under the supervision of their advisors in this course. The students are required to declare their proposal and project plan; present their research and development outcomes; report their process to advisors during regular tutorials; conduct pre‐production, prototyping, production and post-production of the project; Writing interim and final reports; Besides, the students will also be asked to attend the mandatory “Industry Nights” seminars, where they meet guest speakers from games, animation, interactivity, installation, new media and e-Marketing industries, attend talks on industrial practices and job opportunities, receive the advice on teaching and learning from guest speakers.</detail>
+    </course>
+
+    <course>
+        <id>SM1701</id>
+        <name>Contemporary and New Media Art</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course combines critical theory and art history in developing a basic understanding of media art. It provides an overview of the social context, aims and forms of contemporary art, with a strong emphasis on experimental film and video art, installation, performance, interactive and intermedia work, and modes of computational thinking in art practices. The main focus will be on how media technologies are used in contemporary art practices.  Beginning with a media archeological approach and tracing developments in recording and presentation technologies, the course examines how media adds meaning and innovation to making art.  The course also examines the conceptual threads of both media and art, and how media art making is part of a social practice contingent to a larger social-cultural-technological framework. Students are encouraged to explore media technology as an ever-changing variable that is open for scrutiny, recycling, transformation and subversion.</detail>
+    </course>
+
+    <course>
+        <id>SM2609</id>
+        <name>Visual Communication (UI/UX)</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>As graphic design and communication becomes more visible and prevalent in our lives, and play a major front end role in the area of human-computer interaction (HCI) and digital entertainment industry. This course aims to enable student’s ability to design and communicate in graphical form for UX and UI design, addresses core areas of the art, aesthetic and communication of graphic design from traditional to contemporary. By recognizing the principles of User Experience (UX) design, User Interface (UI) design, System Analysis and Design, Approaches and workflow from visual designer, interaction designer and programmer to UX and UI design with the awareness of universal, social, culture, gender, and environment influence, Psychology Aspects of UX and Emotional Design. The student is required to demonstrate and apply them in the course in form of static and animated 2D and 3D graphical UX and UI design.</detail>
+    </course>
+
+    <course>
+        <id>SM2714</id>
+        <name>Fundamentals of Animation</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>Traditional animation was the process used for most animated films of the 20th century. It is a time-based media with a mix of arts and science. It does not only merely capture and representing the phenomenon of motion with its own aesthetic and art form but is the root of other time-based media like digital film, 3D computer animation, digital visual effects and motion graphics in nowadays. This course addresses core areas of animation fundamentals from traditional to contemporary, and treats each from the point of view of “Know Why” and “Know How”. By recognizing the history, concept, art and aesthetic of animation, animation methodologies, principles of animation, pre-production and production process, key influencers, creative research, documentation, and technical know-how, the student is required to demonstrate and apply them in the course. Also, by identifying the characteristics of animation as a storytelling and emotional experience media, students are required to illustrate and communicate their ideas visually and aurally in the form of 2D hand-drawn animation, Cut-out animation, Rotoscoping, Pixilation and Stop-motion Animation.</detail>
+    </course>
+
+    <course>
+        <id>SM3601</id>
+        <name>Game Prototyping and Design</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims to help students understand the game design / development process, how to prepare a design document, and basic game design principles; how to analyze and evaluate a game; help student understand the psychological, social, and other factors that create “fun” behind a game and related game theories; help students understand the history of video game, different genres of game, aesthetics and cultural issues in games, the politics and social issues in multiplayer games, and the basic of game technology and game prototyping tools.</detail>
+    </course>
+
+    <course>
+        <id>CS2116</id>
+        <name>Computer Systems</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims to introduce the logic design techniques in the construction of the functional parts of a CPU and fundamental components and principles of operation of computer systems.</detail>
+    </course>
+
+    <course>
+        <id>CS2303</id>
+        <name>Data Structures for Media</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims to introduce a number of data structures and the mathematical tools for analysing their performance.  Data structures that are commonly used for media are emphasised.</detail>
+    </course>
+
+    <course>
+        <id>CS3301</id>
+        <name>Applied Algorithms</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims to introduce the algorithms in various domains, and techniques for designing efficient algorithms.  It trains students the ability to analyse algorithms and the skills to design solutions to problems especially for media related problems.</detail>
+    </course>
+
+    <course>
+        <id>CS2313</id>
+        <name>Computer Programming</name>
+        <type>Compulsory</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims to equip the students with in-depth concepts and techniques of programming using a high-level object-oriented programming language and to develop practical skills in producing quality programs.</detail>
+    </course>
+<!-- elective-->
+    <course>
+        <id>SM2603</id>
+        <name>2D Game Production</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims to help students acquire skills for design and development of interactive and multimedia entertainment (mainly focus on game); broaden their experience and knowledge on the concepts and technologies on interactive and multimedia technologies; provided students with hands-on experience on developing programs for interactive and multimedia entertainment.</detail>
+    </course>
+
+    <course>
+        <id>SM3120</id>
+        <name>Game Level Design</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>The course provides a simple platform for the students to acquire the knowledge and skills of computer game level design from initial planning through design, implement and game testing. The basic principles and aesthetics of game level design will be covered. It also touches on game play design by scripting, writing game story and collecting player feedback. Students are expected to go through the whole process with the use of well-known game design toolsets.</detail>
+    </course>
+
+    <course>
+        <id>SM3607</id>
+        <name>Mobile Media</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>Mobile devices, such as iPhones and GPhones, have never been more popular. Stylish and versatile mobile devices will be designed to tempt consumers, but the real win is for content creators and developers. Creative use of mobile devices to develop innovative media applications is essential to students as mobile lifestyle is how the way people live nowadays and expectedly, in the future.
+
+The need and desire to access and use media devices regardless of where we are in the world has been around for centuries. This course first introduces the theory of mobile media and its creative use in existing representative art projects. The course then investigates various possibilities of practical mobile media development, taking full advantage of increasingly powerful technologies and functions of mobile devices. The integrated mobile hardware, software and service provide a challenging but enticing platform upon which to create innovative mobile media and interactive arts.</detail>
+    </course>
+
+    <course>
+        <id>SM3608</id>
+        <name>3D Game Production</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>The course aims to acquire the current and latest game development techniques for 3D game production.  The student will expose to tools, techniques and ideas for game development, and the topics will include graphics game engine, game loop, 2D/3D Math, 3D animation, interactions in game play, audio programming, physics and artificial intelligence.</detail>
+    </course>
+
+    <course>
+        <id>SM3610</id>
+        <name>Hardware Hacking</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This is a workshop based programme to provide an interactive environment to practice the knowledge of basic computer organization to installation art. Through the exploration of robotics and embodied system programming, students are expected to be able to construct simple electronics circuits and make simple modifications to existing electronic devices, in order to adapt existing hardware to suit their needs. The course aims to prepare students to further research into the area of installation art and electronic creative works. This course assumes no prior knowledge of electronics but require fundamental programming skills such as basic C/C++ or java programming.</detail>
+    </course>
+
+    <course>
+        <id>CS3391</id>
+        <name>Advanced Programming</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>For many algorithmic problems found in practical systems, the best solutions are usually the elegant combinations of both efficient algorithms and advanced programming techniques. They are the results of some exciting blend of programming, mathematics and problem solving.  The course introduces an interesting variety of subjects in programming, algorithms, and discrete mathematics through puzzles and practical problems so that students will have the chance to perform original discovery of new programming challenges and devise new ideas on solving the problems in an innovative way in terms of algorithms and programming techniques.  The focus of this course is to help students develop advanced algorithmic and programming skills that are required to solve sophisticated problems in the real world. Due to the practicality of the problems which appear in many collegiate programming contests, we expect that the best students from this course will also be competent to solve competition-style programming problems and may be able to represent City University of Hong Kong at ACM Collegiate Programming contests.</detail>
+    </course>
+
+    <course>
+        <id>CS3481</id>
+        <name>Fundamentals of Data Science</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims to explore the important field of data science.  The syllabus covers the main techniques in statistical data modelling, and algorithms in data science, which include predictive modelling, cluster analysis, association rule mining and text mining.  In addition, different applications of data science techniques in the real world such as web mining, business analytics and health informatics will be discussed.</detail>
+    </course>
+
+    <course>
+        <id>CS4182</id>
+        <name>Computer Graphics</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This course aims at introducing the concepts and algorithms of 2D/3D computer graphics and the applications of computer graphics technologies. The main objectives are to cover the basic image generation techniques and to expose students to current graphics technologies and show them how these technologies can be used to solve real-world problems.</detail>
+    </course>
+
+    <course>
+        <id>CS4188</id>
+        <name>Virtual Reality</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>Virtual reality emphasizes on the construction of interactive 3D virtual/mixed environments, and how to interact within such environments through different sensory channels, such as audio, vision and gesture.  Virtual Reality has many applications.  The most popular ones include 3D computer games and virtual walkthrough, which have attracted a lot of attention.  This course aims at introducing virtual reality techniques and their applications.</detail>
+    </course>
+
+    <course>
+        <id>CS4386</id>
+        <name>AI Game Programming</name>
+        <type>Elective</type>
+        <day>Wednesday</day>
+        <startTime>11</startTime>
+        <endTime>13</endTime>
+        <detail>This aim of this course is to provide in-depth coverage of Game AI, which is a collection of AI techniques relevant to computer games, and its applications to modern computer game programming.  The main objective is to ensure students have a firm and clear understanding of the common AI techniques that are applicable to computer game development.  In particular, a main emphasis of this course is to equip students with hands-on practical on Game AI when students design and develop advanced computer games, including Internet web-based multi-player games.</detail>
+    </course>
+</courses>

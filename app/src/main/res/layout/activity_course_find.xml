@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@drawable/appbg" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,10 +20,17 @@
         android:background="@drawable/vertical_layout_bg"
         android:orientation="vertical"
         android:padding="8dp">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view_courses"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 </RelativeLayout>
