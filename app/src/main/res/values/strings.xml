@@ -6,4 +6,7 @@
     <string name="profiletext">我的資訊</string>
     <string name="scheduletext">日程</string>
     <string name="searchtext">搜尋課程</string>
+
+    <string name="preview_button">Preview</string>
+    <string name="Confirm_button">Confirm</string>
 </resources>

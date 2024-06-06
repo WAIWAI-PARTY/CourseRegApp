@@ -24,7 +24,7 @@ class CourseRecyclerAdapter(private val courses: List<Course>) :
         holder.courseId.text = currentCourse.id
         holder.courseName.text = currentCourse.name
         holder.courseType.text = currentCourse.type
-        holder.courseDay.text = currentCourse.day
+        holder.courseDay.text = currentCourse.toDay()
         holder.courseTime.text = "${currentCourse.startTime} - ${currentCourse.endTime}"
 
         holder.itemView.setOnClickListener {
@@ -32,7 +32,7 @@ class CourseRecyclerAdapter(private val courses: List<Course>) :
             intent.putExtra("course_id", currentCourse.id)
             intent.putExtra("course_name", currentCourse.name)
             intent.putExtra("course_type", currentCourse.type)
-            intent.putExtra("course_day", currentCourse.day)
+            intent.putExtra("course_day", currentCourse.toDay())
             intent.putExtra("course_start_time", currentCourse.startTime)
             intent.putExtra("course_end_time", currentCourse.endTime)
             intent.putExtra("course_detail", currentCourse.detail)

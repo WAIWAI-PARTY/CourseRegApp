@@ -22,6 +22,7 @@ class CourseFindActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         recyclerView = findViewById<RecyclerView>(R.id.recycler_view_courses)
         recyclerView.layoutManager = LinearLayoutManager(this)
         val courseList = parseCourses(this)
