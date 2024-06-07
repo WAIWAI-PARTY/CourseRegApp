@@ -29,8 +29,6 @@ class ScheduleActivity : AppCompatActivity() {
     }
     private fun populateScheduleTable(tableLayout: TableLayout) {
         // Define the time slots
-        val timeSlots = listOf(9,10,11,12,13,14,15,16,17,18)
-
         for (time in 9..18) {
             val tableRow = TableRow(this)
             tableRow.layoutParams = TableRow.LayoutParams(
