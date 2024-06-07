@@ -19,6 +19,152 @@
         android:background="@drawable/vertical_layout_bg"
         android:orientation="vertical"
         android:padding="8dp">
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_profile_placeholder"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_shape"
+            android:layout_marginBottom="16dp"/>
 
+        <!-- Major -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Major: Creative Media"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Academic Table -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester A 2021/22"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <!-- Table Rows -->
+            <TableRow>
+                <TextView android:text="CS1103B" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="B" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="LC0200A" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="C+*" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="MA2185" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="F" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="SM1701" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="C+" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="SM1702" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="IP" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="SM2714" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="D" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="GPA:" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="1.57" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester B 2021/22"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <!-- Table Rows -->
+            <TableRow>
+                <TextView android:text="CS2204" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="A-" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="CS2402" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="B+" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="LC0200B" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="D*" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="SM1702" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="B-" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="SM3601" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="B+" />
+            </TableRow>
+            <TableRow>
+                <TextView android:text="GPA:" />
+
+                <TextView
+                    android:gravity="end"
+                    android:text="3.14" />
+            </TableRow>
+        </TableLayout>
     </LinearLayout>
 </RelativeLayout>
