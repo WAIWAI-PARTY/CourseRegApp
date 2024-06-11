@@ -12,108 +12,139 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@drawable/appbg" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8dp"
         android:background="@drawable/vertical_layout_bg"
-        android:orientation="vertical"
-        android:padding="8dp">
-        <!-- Course ID -->
-        <TextView
-            android:id="@+id/text_course_id_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course ID:"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/text_course_id_data"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <!-- Course Name -->
-        <TextView
-            android:id="@+id/text_course_name_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course Name:"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <!-- Course ID -->
+                <TextView
+                    android:id="@+id/text_course_id_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course ID:"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/text_course_name_data"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/text_course_id_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#454545"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
-        <!-- Course Type -->
-        <TextView
-            android:id="@+id/text_course_type_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course Type:"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <!-- Course Name -->
+                <TextView
+                    android:id="@+id/text_course_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Name:"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/text_course_type_data"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/text_course_name_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#454545"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
-        <!-- Course Day -->
-        <TextView
-            android:id="@+id/text_course_day_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course Day:"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <!-- Course Type -->
+                <TextView
+                    android:id="@+id/text_course_type_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Type:"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/text_course_day_data"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/text_course_type_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#454545"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
-        <!-- Course Time -->
-        <TextView
-            android:id="@+id/text_course_time_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course Time:"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <!-- Course Day -->
+                <TextView
+                    android:id="@+id/text_course_day_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Day:"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/text_course_time_data"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/text_course_day_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#454545"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
-        <!-- Course Detail -->
-        <TextView
-            android:id="@+id/text_course_detail_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course Detail:"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <!-- Course Time -->
+                <TextView
+                    android:id="@+id/text_course_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Time:"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/text_course_detail_data"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/text_course_time_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#454545"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
+                <!-- Course Detail -->
+                <TextView
+                    android:id="@+id/text_course_detail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Detail:"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_course_detail_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#454545"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
+
 </RelativeLayout>
