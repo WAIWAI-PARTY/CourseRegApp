@@ -24,7 +24,7 @@ class CourseRegRecyclerAdapter(private val courses: List<Course>) : RecyclerView
         val course = filteredCourses[position]
         holder.bind(course)
 
-        val isConflicting = selectedCourses.any { it.day == course.day && it.startTime < course.endTime && it.endTime > course.startTime }
+        val isConflicting = selectedCourses.any { it.day == course.day && it.startTime <= course.endTime && it.endTime >= course.startTime }
 
         // Set the initial background color based on selection state
         holder.cardView.setCardBackgroundColor(
